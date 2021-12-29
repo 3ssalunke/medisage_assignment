@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+.form {
+  flex: 1;
+  padding: 0px 10px;
+}
+
+.user-list {
+  flex: 3;
+}
+
+.title {
+  padding: 5px;
+  text-align: center;
+}
+
+.input-field {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.input-field label {
+  margin-right: 5px;
+  font-weight: 600;
+}
+
+.input-field input {
+  width: 90%;
+}
+
+.button-div {
+  padding: 5px 10px;
+}
+
+.button {
+  font-weight: 600;
+  padding: 5px 10px;
+  outline: none;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.users {
+  padding: 20px;
+}
+
+.user-detail-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

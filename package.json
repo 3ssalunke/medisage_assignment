@@ -1,0 +1,30 @@
+{
+  "name": "quetwo_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "babel-watch -L src/index.js",
+    "knex:migrate": "knex migrate:latest",
+    "knex:seed": "knex seed:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.5",
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.2",
+    "knex": "^0.95.15",
+    "multer": "^1.4.4",
+    "mysql": "^2.18.1",
+    "sqlite3": "^5.0.2",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "babel-watch": "^7.7.0"
+  }
+}
